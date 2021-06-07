@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Registration Form 2</title>
+    </head>
+	<body bgcolor="lightgray">
+		<span><font color="red">*</font></span>
+		<span> - Denotes Required Information</span>
+		<br>
+		<b>> 1 Donation  </b>
+		&nbsp &nbsp > 2 Confirmation &nbsp &nbsp > 3 Thank You!
+		<br>
+		<span><h2><font color="red">Donor Information</font></h2></span>
+		<br>
+		<form method="post">
+			<center>
+				<table>
+					<tr>
+						<td align="right">
+							<span><b>First Name</b></span>
+							<span><b><font color="red">*</font></b></span>
+						</td>
+						<td>
+							<input type="text" name="fname">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Last Name</b></span>
+							<span><b><font color="red">*</font></b></span>
+						</td>
+						<td>
+							<input type="text" name="nname">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Company</b></span>
+						</td>
+						<td>
+							<input type="text" name="cname">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Address 1</b></span>
+							<span><b><font color="red">*</font></b></span>
+						</td>
+						<td>
+							<input type="text" name="address1">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Address 2</b></span>
+						</td>
+						<td>
+							<input type="text" name="address2">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>City</b></span>
+							<span><b><font color="red">*</font></b></span>
+						</td>
+						<td>
+							<input type="text" name="ucity">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>State</b></span>
+							<span><b><font color="red">*</font></b></span>
+						</td>
+						<td>
+							<select name="ustate">
+								<option selected = "true">Select a State</option>
+								<option>State 1</option>
+								<option>State 2</option>
+								<option>State 3</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Zip Code</b></span>
+							<span><b><font color="red">*</font></b></span>
+						</td>
+						<td>
+							<input type="text" name="uzip">
+						</td>
+					</tr>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Country</b></span>
+							<span><b><font color="red">*</font></b></span>
+						</td>
+						<td>
+							<select name="country" style="width:350px;">
+								<option selected = "true">Select a Country</option>
+								<option>Country 1</option>
+								<option>Country 2</option>
+								<option>Country 3</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Phone</b></span>
+						</td>
+						<td>
+							<input type="text" name="uphone">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Fax</b></span>
+						</td>
+						<td>
+							<input type="text" name="ufax">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Email</b></span>
+							<span><b><font color="red">*</font></b></span>
+						</td>
+						<td>
+							<input type="text" name="uemail">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Donation Ammount</b></span>
+							<span><b><font color="red">*</font></b></span>
+							<br>
+							<span>(Check a button or type in your</span>
+							<br>
+							<span>ammount)</span></span>
+						</td>
+						<td>
+							<input type="radio" name="ammount" value="NONE" checked = "true"> None 
+							<input type="radio" name="ammount" value="$50"> $50 
+							<input type="radio" name="ammount" value="$75"> $75
+							<input type="radio" name="ammount" value="$100"> $100
+							<input type="radio" name="ammount" value="$250"> $250
+							<input type="radio" name="ammount" value="Other"> Other
+							<br>
+							<span><b>Other Ammount $</b></span>
+							<input type="text" name="ammounttxt">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Recurring Information</b></span>
+							<br>
+							<span>(Check if yes)</span>
+						</td>
+						<td>
+							<input type="checkbox" name="agreement1" value="Agreed"> I am interested in giving on regular besis.
+							<br>
+							<span>Monthly Credit Card $</span>
+							<input type="text" name="mcc" maxlength="4" size="4">
+							<span>For</span>
+							<input type="text" name="month" maxlength="3" size="3">
+							<span>Months</span>	
+						</td>
+					</tr>
+				</table>
+			</center>
+			<span><h2><font color="red">Honorarium and Memorial Donation Information</font></h2></span>
+			<center>
+				<table>
+					<tr>
+						<td align="right">
+							<span><b>I would like to make this</b></span>
+							<br>
+							<span><b>Donation</b></span>
+							<br>
+						</td>
+						<td>
+							<input type="radio" name="honor" value="To Honor"> To Honor 
+							<br>
+							<input type="radio" name="honor" value="In Memory of"> In Memory of 
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Name</b></span>
+						</td>
+						<td>
+							<input type="text" name="dname">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Acknowledge Donation to</b></span>
+						</td>
+						<td>
+							<input type="text" name="doname">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Address</b></span>
+						</td>
+						<td>
+							<input type="text" name="daddress">
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>State</b></span>
+						</td>
+						<td>
+							<select name="dstate">
+								<option selected = "true">Select a State</option>
+								<option>State 1</option>
+								<option>State 2</option>
+								<option>State 3</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<span><b>Zip</b></span>
+						</td>
+						<td>
+							<input type="text" name="dzip">
+						</td>
+					</tr>
+				</table>
+			</center>
+			<span><h2><font color="red">Additional Information</font></h2></span>
+			<span>Please enter name, company or organization as you would like it to appear in our publication:</span>
+			<center>
+				<table>
+					<tr>
+						<td>
+							<span><b>Name</b></span>
+						</td>
+						<td>
+							<input type="text" name="aname">
+						</td>
+					</tr>
+				</table>	
+			</center>
+			<input type="checkbox" name="agreement2" value="Agreed"> I would like my gift to remain anonymous. <br>
+			<input type="checkbox" name="agreement3" value="Agreed"> My employer offers a matching gift program. I will mail the matching gift form. <br>
+			<input type="checkbox" name="agreement4" value="Agreed"> Please save the cost of acknowledging this gift by not mailing a thnak you letter. <br>
+			<center>
+				<table>
+					<tr>
+						<td valign="top">
+							<span><b>Comments</b></span>
+							<br>
+							<span>(Please type any questions or feedback </span>
+							<br>
+							<span>here)</span>
+						</td>
+						<td>
+							<textarea name="comment" rows="7" cols="40"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top">
+							<span><b>How may we contact you?</b></span>
+						</td>
+						<td>
+							<input type="checkbox" name="contact[]" value="E-mail">E-mail<br>
+							<input type="checkbox" name="contact[]" value="Postal Mail">Postal Mail<br>
+							<input type="checkbox" name="contact[]" value="Telephone">Telephone<br>
+							<input type="checkbox" name="contact[]" value="Fax">Fax
+						</td>
+					</tr>
+				</table>	
+			</center>
+			<span> <font color="gray">I would like to receive newsletters and information about special events by:</font> </span>
+			<center>
+				<table>
+					<tr>
+						<td>
+						</td>
+						<td valign="left">
+							<input type="checkbox" name="media[]" value="E-mail">E-mail<br>
+							<input type="checkbox" name="media[]" value="Postal Mail">Postal Mail
+						</td>
+					</tr>
+				</table>
+			</center>
+			<input type="checkbox" name="agreement5" value="agreed">I would like the information about voluteering with the<br>
+			<input type="text" size="225"><br><br>
+			<center>
+				<input type="reset"  name="Reset" value="Reset">
+				&nbsp
+				<input type="submit" name="Confirm" value="Confirm">
+			</center>
+			<br>
+			<span>&#128274;  Donate online with confidence. You are on secure server.</span>
+			<br>
+			<span>If you have any problems or questions, please contact</span>
+			<span> <font color="gray">support.</font></span>
+		</form>
+	</body>
+</html>
